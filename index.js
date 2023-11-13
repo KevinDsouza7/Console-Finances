@@ -87,3 +87,21 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+
+var totalMonths = finances.length;
+var netTotal = 0;
+var totalChange = 0;
+var greatestIncrease = { date: '', amount: 0 };
+var greatestDecrease = { date: '', amount: Infinity };
+
+// Cycling through dataset
+for (var i = 0; i < finances.length; i++) {
+
+  var currentDate = finances[i][0];
+  var currentProfitLoss = finances[i][1]
+
+  
+  netTotal += currentProfitLoss;
+
+}
