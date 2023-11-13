@@ -99,7 +99,7 @@ var greatestDecrease = { date: '', amount: Infinity };
 for (var i = 0; i < finances.length; i++) {
 
   var currentDate = finances[i][0];
-  var currentProfitLoss = finances[i][1]
+  var currentProfitLoss = finances[i][1];
 
   
   netTotal += currentProfitLoss;
