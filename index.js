@@ -121,3 +121,7 @@ for (var i = 0; i < finances.length; i++) {
     }
   }
 }
+
+// Calculate average change
+var averageChange = totalChange / (totalMonths - 1);
+
