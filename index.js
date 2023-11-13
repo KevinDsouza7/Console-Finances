@@ -124,4 +124,10 @@ for (var i = 0; i < finances.length; i++) {
 
 // Calculate average change
 var averageChange = totalChange / (totalMonths - 1);
+// Displaying the final results
+console.log(`Total Months: ${totalMonths}`);
+console.log(`Net Total: ${netTotal}`);
+console.log(`Average Change: ${averageChange.toFixed(2)}`);
+console.log(`Greatest Increase in Profits: ${greatestIncrease.date} (${greatestIncrease.amount})`);
+console.log(`Greatest Decrease in Profits: ${greatestDecrease.date} (${greatestDecrease.amount})`);
 
