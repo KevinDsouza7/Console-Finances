@@ -29,3 +29,6 @@ The script calculates and displays the following financial metrics:
 The JavaScript code is organized in the `financialAnalysis.js` file. The calculations are performed and the results are logged to the browser's console.
 
 Feel free to modify the `finances` array with your own dataset for analysis.
+
+## Link to application
+https://kevindsouza7.github.io/Console-Finances/
