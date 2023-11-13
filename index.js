@@ -104,4 +104,20 @@ for (var i = 0; i < finances.length; i++) {
   
   netTotal += currentProfitLoss;
 
+  // Calculating change in profit/loss
+  if (i > 0) {
+    var change = currentProfitLoss - finances[i - 1][1];
+    totalChange += change;
+
+    //finding the greatest increase
+    if (change > greatestIncrease.amount) {
+      greatestIncrease.date = currentDate;
+      greatestIncrease.amount = change;
+    }
+    //finding the greatest decrease
+    if (change < greatestDecrease.amount) {
+      greatestDecrease.date = currentDate;
+      greatestDecrease.amount = change;
+    }
+  }
 }
